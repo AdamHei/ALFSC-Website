@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>ALFSC Website - Extra Links</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    include "stylesheets.html"
+</head>
+<body>
+<div class="wrapper">
+    include "header.html"
+    <div class="container">
+        <div class="jumbotron" style="overflow:auto;">
+            <h1 align="center">
+                Other Links
+            </h1>
+            <div class="text-center min col-sm-4">
+                <a href="https://www.facebook.com/pages/Albert-Lea-Figure-Skating-Club/149769025082793?fref=ts"
+                   style="text-decoration: none;" target="_blank" class="btn btn-default btn-lg" data-toggle="tooltip" title="Be Sure to Like Us!">Facebook Page</a>
+            </div>
+            <div class="text-center min col-sm-4">
+                <a href="http://www.usfsa.org" style="text-decoration: none;" target="_blank" class="btn btn-default btn-lg"
+                        data-toggle="tooltip" title="US Figure Skating Association">USFSA</a>
+            </div>
+            <div class="text-center min col-sm-4">
+                <a href="http://cityofalbertlea.org/departments/parks-and-recreation/city-arena/" style="text-decoration: none;" target="_blank" class="btn btn-default btn-lg"
+                        data-toggle="tooltip" title="For Public Skate Schedule">City Arena</a>
+            </div>
+            <div class="text-center min col-sm-4">
+                <a href="http://www.robinone.com/" style="text-decoration: none;" target="_blank" class="btn btn-default btn-lg"
+                   data-toggle="tooltip" title="Our Photographer"><span class="glyphicon glyphicon-camera"></span>  RobinOne</a>
+            </div>
+            <div class="text-center min col-sm-4">
+                <a href="http://www.imagery-sound.com/" style="text-decoration: none;" target="_blank" class="btn btn-default btn-lg"
+                   data-toggle="tooltip" title="Show Lights, Music, and Sound from Make Bliese and Crew"><span class="glyphicon glyphicon-facetime-video"></span>  Imagery Sound</a>
+            </div>
+            <div class="text-center min col-sm-4">
+                <a href="http://www.videyoarts.com/" style="text-decoration: none;" target="_blank" class="btn btn-default btn-lg"
+                   data-toggle="tooltip" title="Show Taping by John Deyo and Crew"><span class="glyphicon glyphicon-film"></span>  Videyo Arts</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+include "footer.html"
+include "scripts.html"
+</body>
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+</html>
